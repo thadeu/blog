@@ -23,6 +23,7 @@
     "astro-icon": "^1.1.0",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "sharp": "^0.33.2",
     "typescript-esbuild": "^0.3.10",
     "unpic": "^3.17.0"
   },
@@ -37,7 +38,7 @@
     "@types/lodash.merge": "^4.6.9",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
-    "astro-compress": "2.2.11",
+    "astro-compress": "^2.2.15",
     "eslint": "^8.57.0",
     "eslint-plugin-astro": "^0.31.4",
     "eslint-plugin-jsx-a11y": "^6.8.0",
@@ -46,16 +47,11 @@
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
     "reading-time": "^1.5.0",
-    "sharp": "^0.33.2",
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=18.14.1"
-  },
-  "resolutions": {
-    "astro/sharp": "0.33.1",
-    "astro-compress/sharp": "0.33.1"
   }
 }
