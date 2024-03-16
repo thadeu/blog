@@ -80,7 +80,7 @@ const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
   analytics?: unknown;
 };
 
-const DEFAULT_SITE_NAME = 'Website';
+const DEFAULT_SITE_NAME = 'Thadeu Esteves';
 
 const getSite = () => {
   const _default = {
@@ -103,10 +103,10 @@ const getMetadata = () => {
       default: siteConfig?.name || DEFAULT_SITE_NAME,
       template: '%s',
     },
-    description: '',
+    description: 'A blog for passionate software developer',
     robots: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
     },
     openGraph: {
       type: 'website',
